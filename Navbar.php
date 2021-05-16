@@ -8,13 +8,13 @@
 	</div>
 	<div class="" >
 		<ul class=" d-flex" style="cursor: pointer;">
-			<a href="index.php" class="nav-link text-dark">
+			<a href="index.php" class="nav-link text-light">
 				Home
 			</a>
-			<a href="Notices.php" class="nav-link text-dark">
+			<a href="Notices.php" class="nav-link text-light">
 				Updates
 			</a>
-			<a href="contactus.php" class="nav-link text-dark">
+			<a href="contactus.php" class="nav-link text-light">
 				Contact
 			</a>
 		</ul>
