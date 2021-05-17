@@ -13,7 +13,7 @@
 	
 ?>	
 <!-- Body 1-->
-<div class="container mt-3" style="height: 105vh">
+<div class="container mt-5 mb-5 bg-primary" style="height: 105vh">
 	<div class="row">
 		<?php
 			$query="Select * from notes where subject_name='AI'";
@@ -24,8 +24,8 @@
 
 				
 		?>
-		<div class="col-md-4 mt-3">
-			<div class="card h-100">
+		<div class="col-md-4 mt-3 mb-2">
+			<div class="card h-100 bg-warning">
 		<div class="card-title h-50">
 			<center> <?php echo "".$row['content'];  ?> </center>
 		</div>

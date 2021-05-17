@@ -40,15 +40,10 @@
     				$uploadOk = 0;
 												}
 
-						// if ($size>800000) {
-						// 	echo "<script>alert('file size error')</script>";
-							
-						// 	$uploadOk=0;
-						// }
-						// else{
+						
 							$x=move_uploaded_file($tmp,"uploads/".$fname1);
 							$uploadOk=1;
-						// }
+						
 						}
 						else{
 							echo "<script>alert('Please fill upload')</script>";
@@ -70,18 +65,19 @@
 	<title></title>
 	<link rel="stylesheet" href="mystyle.css" />
 	<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:weight@100&display=swap" rel="stylesheet">
 </head>
 <body>
 	<?php
 		include("Navbar.php");
 	?>
-	<div class="container mt-3 bg-dark">
+	<div class="container mt-3 ">
 		<h3> Hello,  <?php echo "".$username;  ?>  </h3>
 	</div>
 	<div class="container mt-4" style="height: 100vh">
 			<div class="row">
 				<div class="col-md-8">
-					<h6>Broadcast notice</h6>
+					<h5>Broadcast notice</h5>
 					<div class="bg-warning">
 						<form method="post" class="table-responsive p-3">
 							<input type="text" class="form-control" name="title" placeholder="Add title">
@@ -92,7 +88,7 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<h6>Add material</h6>
+					<h5>Add material</h5>
 					<div class="bg-warning">
 						<form method="post" class="embed-responsive p-3" enctype="multipart/form-data">
 							<input type="text" class="form-control" name="title" placeholder="Add title">
