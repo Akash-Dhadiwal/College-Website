@@ -5,6 +5,7 @@
 	<title></title>
 	<link rel="stylesheet" href="mystyle.css" />
 	<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:weight@100&display=swap" rel="stylesheet">
 </head>
 <body>
 	<?php

@@ -23,9 +23,12 @@
 		<title>
 			VIT College Portal
 		</title>
-	</head>
 	<link rel="stylesheet" href="mystyle.css" />
 	<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css"/>
+	<!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:weight@100&display=swap" rel="stylesheet">
+	</head>
+
 
 <body>
 	<!-- Navbar design HTML code  -->
@@ -40,8 +43,8 @@
 		<div class="row m-5 pt-5">
 			<div class="col-md-7">
 				
-				<table  cellspacing="20" cellpadding="40" width="100%">
-					<tr>
+				<table  cellspacing="20" cellpadding="40" width="100%" style="margin-bottom: 2em">
+					<tr >
 						<th>
 							<h5>One way stop for notes and more</h5>
 						</th>
@@ -112,19 +115,7 @@
 	</div>
 	<!-- End of body1    -->
 
-	<!-- FOOTER  -->
-
-	<?php  
-		include("Footer.php");
-	?>
-
 	
-
-
-
-
-	<!-- End of footer --> 
-</body>
 
 <script type="text/javascript" src="JQuery/jquery-3.3.1.js"></script>
 <script type="text/javascript" src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>

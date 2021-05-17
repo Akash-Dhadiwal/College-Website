@@ -12,7 +12,7 @@
 	?>
 	<div class="row" style="height: 100vh;width: 100%">
 
-		<div class="container mt-4">
+		<div class="container mt-5 mb-5  bg-warning" style="padding: 20px">
 			<h3>Notices board</h3>
 			<?php
 				include("connect_db.php");
@@ -23,8 +23,8 @@
 
 			
 			?>
-			<div class="col-md-12">
-				<div class="card mt-4 p-2">
+			<div class="col-md-12 bg-primary" >
+				<div class="card mt-4 p-2 ">
 					<div class="title">
 						<h4 class="card-title"><?php echo "".$rows['title'] ?></h4>
 						<p><?php echo "".$rows['description'] ?></p>
